@@ -1,0 +1,20 @@
+2026-01-15 10:23:41 INFO app.startup: Application starting up
+2026-01-15 10:23:42 INFO app.startup: Loaded configuration from /etc/app/config.yaml
+2026-01-15 10:23:45 DEBUG db.connector: Opening connection pool with size 10
+2026-01-15 10:23:46 INFO web.server: Listening on port 8080
+2026-01-15 10:24:01 WARNING cache.redis: Cache miss rate above threshold: 42%
+2026-01-15 10:24:10 ERROR db.connector: Connection refused to host 10.0.0.5
+2026-01-15 10:24:15 ERROR db.connector: Connection refused to host 10.0.0.9
+2026-01-15 10:24:20 INFO web.server: Handled request from 203.0.113.7
+2026-01-15 10:24:33 ERROR auth.session: User 48213 not found
+2026-01-15 10:24:40 ERROR auth.session: User 91820 not found
+2026-01-15 10:24:55 WARNING cache.redis: Cache miss rate above threshold: 51%
+2026-01-15 10:25:02 ERROR db.connector: Connection refused to host 10.0.0.5
+2026-01-15 10:25:10 CRITICAL app.core: Unhandled exception in worker 7: division by zero
+2026-01-15 10:25:12 CRITICAL app.core: Unhandled exception in worker 3: division by zero
+2026-01-15 10:25:20 INFO web.server: Handled request from 203.0.113.9
+this is a completely malformed line that should be skipped
+2026-01-15 10:25:33 ERROR payments.gateway: Payment 7a2f9c1d failed for order 55210
+2026-01-15 10:25:40 ERROR payments.gateway: Payment 9b1e3f0a failed for order 55344
+2026-01-15 10:25:50 DEBUG db.connector: Closing idle connection 4
+2026-01-15 10:26:01 INFO app.shutdown: Application shutting down cleanly
